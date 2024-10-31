@@ -4,7 +4,7 @@
 >
 > CLI - Command Line Interface
 
-### **Comandos**
+## **Comandos**
 > `sudo`
 >> - Permite executar programas com previlégios de outro user
 >> - por padrão, como o superuser -root. sudo significa "substitute user do"
@@ -31,7 +31,7 @@
 
 `ps aux` -> mostra todos os processos ativos no sistema no momento da execução
 
-### Navegação
+## Navegação
 > pwd.
 >> print working directory (mostra o caminho do diretótio atual)
 
@@ -80,6 +80,11 @@
     - -R -> modo recursivo para directórios
     - -f -> modo forçado e silencioso
 - `touch` - muda os tempos de acesso e modificação de um arquivo. Grande parte dos casos, usamos este comando para criar um arquivo vazio.
-                    
+## Símbolos (Operadores) úteis
+- `;` -> permite executar vários comandos na mesma linha. Executa todos os comandos, mesmo se ocorrer algum erro.                    
+- `&&` -> permite executar vários comandos na mesma linha. Se o comando anterior não gerar nenhum erro, continua a corrente de comandos, caso contrário, pára no momento que ocorrer um erro
+- `||` -> permite executar vários comandos na mesma linha. Funciona de maneira oposta ao anterior, ou seja, se ocorrer algum erro no comando anterior, executa o próximo comando, caso contrário, pára no primeiro comando que não gerar um erro.
+- `|` -> envia a saída (output) de um comando para a entrada (input) de outro.
+
 
 
