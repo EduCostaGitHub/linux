@@ -85,6 +85,15 @@
 - `&&` -> permite executar vários comandos na mesma linha. Se o comando anterior não gerar nenhum erro, continua a corrente de comandos, caso contrário, pára no momento que ocorrer um erro
 - `||` -> permite executar vários comandos na mesma linha. Funciona de maneira oposta ao anterior, ou seja, se ocorrer algum erro no comando anterior, executa o próximo comando, caso contrário, pára no primeiro comando que não gerar um erro.
 - `|` -> envia a saída (output) de um comando para a entrada (input) de outro.
+- `>` -> Envia a saída de um comando e redireciona para um arquivo. Apaga o arquivo todo e sibstitui o conteúdo.
+- `>>` -> Envia a saída de um comando e redireciona para um arquivo. Não apaga o que estiver no arquivo, apenas adiciona o novo conteúdo na última linha.
+- `&` -> Envia para o background. Ver jobs e fg para complementar.
+## Background e Foreground
+- `jobs` -> mostra trabalhos em execução
+- `fg %n` -> traz o que estiver em background para o foreground
+- `bg %n` -> continua um job em background
+- `kill %n` -> mata um job 
+
 
 
 
